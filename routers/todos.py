@@ -3,9 +3,7 @@ from sqlalchemy.orm import Session
 import models
 from database import engine, SessionLocal
 from schemas import Todo
-
 from .auth import get_current_user, get_user_exception
-from routers import auth
 
 router = APIRouter(prefix='/todos', tags=['todos'], responses={401: {'description':'Not found'}})
 

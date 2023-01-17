@@ -9,7 +9,7 @@ from fastapi.security import OAuth2PasswordRequestForm, OAuth2PasswordBearer
 from datetime import datetime, timedelta
 from jose import jwt, JWTError
 
-
+# in a real project there must be environment variables
 SECRET_KEY = 'DJzrC9KNnPId4IvJviuATAozmNkW79gG'
 ALGORITHM = 'HS256'
 
