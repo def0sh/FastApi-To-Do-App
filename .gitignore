@@ -25,6 +25,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+.idea/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -60,6 +61,11 @@ cover/
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
+
+# Alembic
+env.py
+alembic.ini
+script.py.mako
 
 
 # PyBuilder
